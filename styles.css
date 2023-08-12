@@ -1,0 +1,196 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/* 
+
+HEADER 
+
+*/
+.container.header,
+.container.header * {
+    background-color: #1F2937;
+}
+
+
+.container.header .header-row {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.container.header {
+    padding-bottom: 100px;
+}
+
+#header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+
+.container.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+
+.hero .text-container h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.hero .text-container p {
+    margin: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero .text-container button {
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero img {
+    width: 400px;
+}
+
+
+/* 
+INFO
+*/
+
+.container.info {
+    background-color: #FFFFFF;
+    padding-top: 50px;
+}
+
+#info-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.info-card p {
+    text-align: center;
+}
+
+.img-replacement {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+/*
+QUOTE
+*/
+.container.quote {
+    background-color: #E5E7EB;
+    padding: 200px;
+}
+
+#quotetext {
+    margin: 0;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quotesource {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
+
+/*
+AD
+*/
+.container.ad {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.adbox {
+    flex: 1;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.adtext h3,
+.adtext p {
+    color: white;
+    margin: 0;
+}
+
+.adbox button {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 4px 20px; 
+}
+
+/*
+FOOTER
+*/
+.container.footer,
+.container.footer * {
+    background-color: #1F2937;
+    color: white;
+}
+
+.container.footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
